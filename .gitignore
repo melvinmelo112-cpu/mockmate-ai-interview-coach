@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Environment variables
+.env
+.env.*
+server/.env
+
+# Whitelist .env.example
+!server/.env.example
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs & OS artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
